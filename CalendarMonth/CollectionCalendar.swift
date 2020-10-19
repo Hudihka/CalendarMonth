@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+//выкладывал по этому уроку
+//https://medium.com/flawless-app-stories/create-your-own-cocoapods-library-da589d5cd270
+
 public class CollectionCalendar: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegate{
 	
 	var blockTextHeader : (String) -> () = { _ in }

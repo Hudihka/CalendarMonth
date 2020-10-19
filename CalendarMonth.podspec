@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 This CocoaPods library helps you selected date.
                    DESC
 
-  spec.homepage     = "http://github.com/Hudihka/CalendarMonth"
+  spec.homepage     = "https://github.com/Hudihka/CalendarMonth"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.authors      = { "Константин Худышка" => "k.iroshnikov@itmegastar.com" }
 
@@ -19,7 +19,7 @@ This CocoaPods library helps you selected date.
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5.0"
 
-  spec.source       = { :git => "http://github.com/Hudihka/CalendarMonth.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source       = { :git => "https://github.com/Hudihka/CalendarMonth.git", :tag => "#{spec.version}" }
+  spec.source_files  = "CalendarMonth/**/*.{h,m,swift}"
 
 end
